@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="UTF-8">
+      <script src='jquery-3.2.1.min.js'></script>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Shrts</title>
+      <link rel="stylesheet" type="text/css" href="popup.css" />
+      <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+   </head>
+   <body>
+      <img src="logo.png" class="logo" alt="Shrts">
+      <button id="history" class="history-button">History</button>
+      <br />
+      <div class='wrapper'>
+         <img class="loading hide" src="loading.svg" id="demo" alt="smiley">
+         <p class='error hide'></p>
+        <div class="url-container hide">
+            <input id='outputText' class="input-text" placeholder="Shortened URL" type='text' title="Shortened URL" readonly />
+            <button id="copyBtn" class="copy-button" title="Copy to Clipboard">
+               <img src="copy.svg">
+            </button>
+         </div>
+      </div>
+      <script src="jquery-3.5.1.min.js"></script>
+      <script src="popup.js"></script>
+   </body>
+</html>
