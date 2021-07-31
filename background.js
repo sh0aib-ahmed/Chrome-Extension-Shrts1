@@ -8,7 +8,7 @@ function include(file) {
 include('jquery-3.5.1.min.js');
 chrome.runtime.onInstalled.addListener(function() {
 	chrome.contextMenus.create({
-		title: 'Shorten the current hovered link and copy', //No i18nn
+		title: 'Shorten the current hovered link and copy', //No i18n
 		contexts: ["link"], //No i18n
 		id: "shorternhoverlink" //No i18n
 	});
